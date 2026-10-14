@@ -1,0 +1,110 @@
+[
+  {
+    "Feature Configuration": "Word TF-IDF",
+    "Model": "Multinomial Naive Bayes",
+    "Accuracy": 0.9514,
+    "Precision (Spam)": 0.8809,
+    "Recall (Spam)": 0.8853,
+    "F1 Score (Spam)": 0.8829,
+    "ROC-AUC": 0.9835
+  },
+  {
+    "Feature Configuration": "Word TF-IDF",
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9693,
+    "Precision (Spam)": 0.9626,
+    "Recall (Spam)": 0.8865,
+    "F1 Score (Spam)": 0.9229,
+    "ROC-AUC": 0.9933
+  },
+  {
+    "Feature Configuration": "Word TF-IDF",
+    "Model": "Linear SVM",
+    "Accuracy": 0.9756,
+    "Precision (Spam)": 0.9531,
+    "Recall (Spam)": 0.9281,
+    "F1 Score (Spam)": 0.9404,
+    "ROC-AUC": 0.9932
+  },
+  {
+    "Feature Configuration": "Char TF-IDF",
+    "Model": "Multinomial Naive Bayes",
+    "Accuracy": 0.9371,
+    "Precision (Spam)": 0.8168,
+    "Recall (Spam)": 0.8984,
+    "F1 Score (Spam)": 0.8554,
+    "ROC-AUC": 0.9726
+  },
+  {
+    "Feature Configuration": "Char TF-IDF",
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9686,
+    "Precision (Spam)": 0.9476,
+    "Recall (Spam)": 0.8984,
+    "F1 Score (Spam)": 0.9222,
+    "ROC-AUC": 0.9905
+  },
+  {
+    "Feature Configuration": "Char TF-IDF",
+    "Model": "Linear SVM",
+    "Accuracy": 0.9703,
+    "Precision (Spam)": 0.9404,
+    "Recall (Spam)": 0.915,
+    "F1 Score (Spam)": 0.9274,
+    "ROC-AUC": 0.9913
+  },
+  {
+    "Feature Configuration": "Word + Char TF-IDF",
+    "Model": "Multinomial Naive Bayes",
+    "Accuracy": 0.9424,
+    "Precision (Spam)": 0.8007,
+    "Recall (Spam)": 0.962,
+    "F1 Score (Spam)": 0.8738,
+    "ROC-AUC": 0.987
+  },
+  {
+    "Feature Configuration": "Word + Char TF-IDF",
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9781,
+    "Precision (Spam)": 0.9672,
+    "Recall (Spam)": 0.9257,
+    "F1 Score (Spam)": 0.946,
+    "ROC-AUC": 0.9949
+  },
+  {
+    "Feature Configuration": "Word + Char TF-IDF",
+    "Model": "Linear SVM",
+    "Accuracy": 0.9807,
+    "Precision (Spam)": 0.9636,
+    "Recall (Spam)": 0.9424,
+    "F1 Score (Spam)": 0.9528,
+    "ROC-AUC": 0.9951
+  },
+  {
+    "Feature Configuration": "Hybrid NLP + Structural",
+    "Model": "Multinomial Naive Bayes",
+    "Accuracy": 0.9466,
+    "Precision (Spam)": 0.8156,
+    "Recall (Spam)": 0.9602,
+    "F1 Score (Spam)": 0.8818,
+    "ROC-AUC": 0.9875
+  },
+  {
+    "Feature Configuration": "Hybrid NLP + Structural",
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9799,
+    "Precision (Spam)": 0.9617,
+    "Recall (Spam)": 0.9406,
+    "F1 Score (Spam)": 0.951,
+    "ROC-AUC": 0.9942
+  },
+  {
+    "Feature Configuration": "Hybrid NLP + Structural",
+    "Model": "Linear SVM",
+    "Accuracy": 0.981,
+    "Precision (Spam)": 0.9603,
+    "Recall (Spam)": 0.9477,
+    "F1 Score (Spam)": 0.9539,
+    "ROC-AUC": 0.9944
+  }
+]

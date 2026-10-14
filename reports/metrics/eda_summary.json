@@ -1,0 +1,13 @@
+{
+  "total_messages": 5158,
+  "spam_messages": 642,
+  "ham_messages": 4516,
+  "spam_percentage": 12.45,
+  "ham_percentage": 87.55,
+  "avg_message_length": 79.15,
+  "avg_spam_length": 137.41,
+  "avg_ham_length": 70.87,
+  "avg_message_word_count": 15.42,
+  "avg_spam_word_count": 23.7,
+  "avg_ham_word_count": 14.24
+}

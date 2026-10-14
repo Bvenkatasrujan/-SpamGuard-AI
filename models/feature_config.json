@@ -1,0 +1,14 @@
+{
+  "word_ngram_range": [
+    1,
+    2
+  ],
+  "word_max_features": 4000,
+  "char_ngram_range": [
+    3,
+    5
+  ],
+  "char_max_features": 4000,
+  "structural_features_count": 26,
+  "normalization": "clean_for_vectorization + MinMaxScaler"
+}

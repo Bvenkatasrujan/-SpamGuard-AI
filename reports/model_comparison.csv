@@ -1,0 +1,13 @@
+Feature Configuration,Model,Accuracy,Precision (Spam),Recall (Spam),F1 Score (Spam),ROC-AUC
+Hybrid NLP + Structural,Linear SVM,0.981,0.9603,0.9477,0.9539,0.9944
+Word + Char TF-IDF,Linear SVM,0.9807,0.9636,0.9424,0.9528,0.9951
+Hybrid NLP + Structural,Logistic Regression,0.9799,0.9617,0.9406,0.951,0.9942
+Word + Char TF-IDF,Logistic Regression,0.9781,0.9672,0.9257,0.946,0.9949
+Word TF-IDF,Linear SVM,0.9756,0.9531,0.9281,0.9404,0.9932
+Char TF-IDF,Linear SVM,0.9703,0.9404,0.915,0.9274,0.9913
+Word TF-IDF,Logistic Regression,0.9693,0.9626,0.8865,0.9229,0.9933
+Char TF-IDF,Logistic Regression,0.9686,0.9476,0.8984,0.9222,0.9905
+Word TF-IDF,Multinomial Naive Bayes,0.9514,0.8809,0.8853,0.8829,0.9835
+Hybrid NLP + Structural,Multinomial Naive Bayes,0.9466,0.8156,0.9602,0.8818,0.9875
+Word + Char TF-IDF,Multinomial Naive Bayes,0.9424,0.8007,0.962,0.8738,0.987
+Char TF-IDF,Multinomial Naive Bayes,0.9371,0.8168,0.8984,0.8554,0.9726
